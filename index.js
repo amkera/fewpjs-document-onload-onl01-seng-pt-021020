@@ -5,8 +5,8 @@ document.addEventListener( "DOMContentLoaded", function () {
 //when the DOM has loaded, execute the function called updateDOM
 
 function updateDOM() {
-  document.getElementById( "text" )
-    .innerHTML = "This is really cool!";
+  let text = document.getElementById( "text" )
+  text.innerHTML = "This is really cool!";
 }
 
 //get the id element called text, and replace its HTML
